@@ -77,6 +77,7 @@
             this.btn3.TabIndex = 2;
             this.btn3.Text = "Exercicio03";
             this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn4
             // 
@@ -88,6 +89,7 @@
             this.btn4.TabIndex = 3;
             this.btn4.Text = "Exercicio04";
             this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn5
             // 
@@ -99,6 +101,7 @@
             this.btn5.TabIndex = 4;
             this.btn5.Text = "Exercicio05";
             this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn6
             // 
@@ -176,6 +179,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Exercicio12";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Principal
             // 

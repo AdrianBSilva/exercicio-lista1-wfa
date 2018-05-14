@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercicio04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio04.Designer.cs">
+      <DependentUpon>Exercicio04.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercicio03.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,18 @@
     <Compile Include="Exercicio02.Designer.cs">
       <DependentUpon>Exercicio02.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercicio05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio05.Designer.cs">
+      <DependentUpon>Exercicio05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio12.Designer.cs">
+      <DependentUpon>Exercicio12.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +88,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Exercicio04.resx">
+      <DependentUpon>Exercicio04.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercicio01.resx">
       <DependentUpon>Exercicio01.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +99,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercicio03.resx">
       <DependentUpon>Exercicio03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio05.resx">
+      <DependentUpon>Exercicio05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio12.resx">
+      <DependentUpon>Exercicio12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

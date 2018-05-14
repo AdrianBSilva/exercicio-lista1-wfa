@@ -34,5 +34,31 @@ namespace Exercicio01
             Principal principal = new Principal();
             principal.Show();
         }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            Exercicio03 exercicio03 = new Exercicio03();
+            exercicio03.Show();
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            Exercicio04 exercicio04 = new Exercicio04();
+            exercicio04.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Exercicio12 exercicio12 = new Exercicio12();
+            exercicio12.Show();
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            Exercicio05 exercicio05 = new Exercicio05();
+            exercicio05.Show();
+        }
+
+        
     }
 }
