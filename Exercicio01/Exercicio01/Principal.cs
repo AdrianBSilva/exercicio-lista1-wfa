@@ -59,6 +59,24 @@ namespace Exercicio01
             exercicio05.Show();
         }
 
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            Exercicio06 exercicio06 = new Exercicio06();
+            exercicio06.Show();
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            Exercicio07 exercicio07 = new Exercicio07();
+            exercicio07.Show();
+        }
+
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            Exercicio08 exercicio08 = new Exercicio08();
+            exercicio08.Show();
+        }
+
         
     }
 }
