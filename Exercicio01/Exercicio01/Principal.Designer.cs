@@ -173,6 +173,7 @@
             this.btn11.TabIndex = 10;
             this.btn11.Text = "Exercicio11";
             this.btn11.UseVisualStyleBackColor = false;
+            this.btn11.Click += new System.EventHandler(this.btn11_Click);
             // 
             // button1
             // 
